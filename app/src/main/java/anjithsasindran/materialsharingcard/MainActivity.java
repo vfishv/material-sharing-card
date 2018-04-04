@@ -60,7 +60,7 @@ public class MainActivity extends Activity {
             revealView.setLayoutParams(parameters);
 
             Animator anim = ViewAnimationUtils.createCircularReveal(revealView, x, y, 0, hypotenuse);
-            anim.setDuration(700);
+            anim.setDuration(300);
 
             anim.addListener(new Animator.AnimatorListener() {
                 @Override
@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
             imageButton.setImageResource(R.mipmap.twitter_logo);
 
             Animator anim = ViewAnimationUtils.createCircularReveal(revealView, x, y, hypotenuse, 0);
-            anim.setDuration(400);
+            anim.setDuration(300);
 
             anim.addListener(new Animator.AnimatorListener() {
                 @Override
